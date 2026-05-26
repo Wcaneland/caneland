@@ -1,0 +1,393 @@
+<!-- ========================================
+     EINWOHNERZAHL HIER ÄNDERN:
+     ======================================== -->
+<script>const EINWOHNER = 0;</script>
+<!-- ======================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caneland – Official State Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --blue: #1a3a6b;
+    --black: #111111;
+    --gold: #F0C000;
+    --white: #f9f8f4;
+    --light: #eceae3;
+    --text: #1a1a1a;
+    --muted: #555;
+  }
+  body { font-family: 'Source Sans 3', sans-serif; background: var(--white); color: var(--text); font-size: 17px; line-height: 1.7; }
+
+  /* LANG SWITCHER */
+  .lang-switcher {
+    background: var(--blue);
+    display: flex;
+    justify-content: flex-end;
+    gap: 0;
+    padding: 0 2rem;
+  }
+  .lang-switcher button {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.6);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .lang-switcher button:hover { color: white; }
+  .lang-switcher button.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  .flag-bar { display: flex; height: 10px; }
+  .flag-bar div { flex: 1; }
+  .flag-bar .f1 { background: var(--blue); }
+  .flag-bar .f2 { background: var(--black); }
+  .flag-bar .f3 { background: var(--blue); }
+
+  nav { background: var(--black); color: white; display: flex; align-items: center; justify-content: space-between; padding: 0 3rem; height: 56px; }
+  nav .logo { font-family: 'Playfair Display', serif; font-size: 1.2rem; letter-spacing: 0.08em; color: var(--gold); }
+  nav ul { list-style: none; display: flex; gap: 2rem; }
+  nav ul a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600; transition: color 0.2s; }
+  nav ul a:hover { color: var(--gold); }
+
+  .hero { background: var(--black); color: white; padding: 7rem 3rem 6rem; text-align: center; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, rgba(26,58,107,0.15) 0px, rgba(26,58,107,0.15) 1px, transparent 1px, transparent 80px); }
+  .hero-inner { position: relative; z-index: 1; }
+  .hero-flag { display: flex; width: 120px; height: 80px; margin: 0 auto 2rem; border: 2px solid rgba(255,255,255,0.2); }
+  .hero-flag div { flex: 1; }
+  .hero-flag .hf1 { background: var(--blue); }
+  .hero-flag .hf2 { background: var(--black); border-left: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1); }
+  .hero-flag .hf3 { background: var(--blue); }
+  .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 700; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+  .hero-sub { color: var(--gold); font-size: 0.9rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; margin-bottom: 1.5rem; }
+  .hero p { color: rgba(255,255,255,0.6); max-width: 480px; margin: 0 auto; font-size: 1rem; }
+  .gold-line { width: 60px; height: 3px; background: var(--gold); margin: 1.5rem auto; }
+
+  section { padding: 4rem 3rem; max-width: 900px; margin: 0 auto; }
+  section + section { border-top: 1px solid var(--light); }
+  .section-label { font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue); font-weight: 600; margin-bottom: 0.5rem; }
+  h2 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; line-height: 1.2; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 2rem; }
+  .stat { background: var(--light); border-radius: 8px; padding: 1.25rem; text-align: center; }
+  .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; color: var(--blue); line-height: 1; margin-bottom: 0.4rem; }
+  .stat-label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  .articles { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
+  .article-card { border-left: 3px solid var(--gold); padding: 1rem 1.25rem; background: var(--light); border-radius: 0 8px 8px 0; }
+  .article-card h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; margin-bottom: 0.4rem; color: var(--black); }
+  .article-card p { font-size: 0.92rem; color: var(--muted); line-height: 1.6; }
+
+  .lang-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+  .lang-card { background: var(--light); border-radius: 8px; padding: 1rem; }
+  .lang-card .src { font-size: 0.8rem; color: var(--muted); margin-bottom: 2px; }
+  .lang-card .canelandic { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--blue); font-weight: 700; }
+  .lang-card .meaning { font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+
+  /* CITIZENSHIP FORM */
+  .citizenship-box { background: var(--black); color: white; border-radius: 12px; padding: 2.5rem; margin-top: 1.5rem; }
+  .citizenship-box h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center; }
+  .citizenship-box .sub { color: rgba(255,255,255,0.5); font-size: 0.9rem; text-align: center; margin-bottom: 2rem; }
+
+  .app-form { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 0 auto; }
+  .app-form label { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 3px; display: block; }
+  .app-form input, .app-form textarea, .app-form select {
+    width: 100%;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.95rem;
+    padding: 0.65rem 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .app-form input:focus, .app-form textarea:focus, .app-form select:focus { border-color: var(--gold); }
+  .app-form select option { background: #222; color: white; }
+  .app-form textarea { resize: vertical; min-height: 90px; }
+  .app-form .hint { font-size: 0.78rem; color: rgba(255,255,255,0.35); margin-top: -6px; }
+  .btn-submit {
+    background: var(--gold);
+    color: var(--black);
+    border: none;
+    border-radius: 6px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.5rem;
+    transition: opacity 0.2s;
+  }
+  .btn-submit:hover { opacity: 0.85; }
+
+  .holiday-row { display: flex; align-items: center; gap: 1.5rem; background: var(--light); border-radius: 12px; padding: 1.5rem; margin-top: 1.5rem; }
+  .holiday-date { background: var(--blue); color: white; border-radius: 8px; padding: 0.75rem 1.25rem; text-align: center; min-width: 80px; flex-shrink: 0; }
+  .holiday-date .day { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; line-height: 1; }
+  .holiday-date .month { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.8; margin-top: 4px; }
+
+  footer { background: var(--black); color: rgba(255,255,255,0.4); text-align: center; padding: 2rem; font-size: 0.82rem; }
+  footer span { color: var(--gold); }
+
+  [data-t] { transition: opacity 0.15s; }
+</style>
+</head>
+<body>
+
+<script>
+const T = {
+  en: {
+    nav_about: "About", nav_constitution: "Constitution", nav_language: "Language", nav_citizenship: "Citizenship",
+    hero_sub: "Official State Website",
+    hero_desc: "A sovereign state with its own language, constitution, and government. Founded on the 26th of January.",
+    about_label: "The State", about_title: "About Caneland",
+    about_text: "Caneland is an independent state with a fully developed constitutional system, its own language (Canelandic), a national flag, and a capital city: Gotersburg. The state was founded on the 26th of January – a date now celebrated as a national holiday every year, with a day of remembrance held on the 26th of every other month.",
+    stat_citizens: "Citizens", stat_city: "City", stat_election: "Election day", stat_articles: "Constitutional articles",
+    const_label: "Governance", const_title: "The Constitution",
+    const_text: "Caneland operates under a written constitution with clear separation of powers between the President, the Court, and the People. The constitution may only be amended with 70% popular support and a majority of judges.",
+    a1_title: "Article 1 – The People", a1_text: "All power in the state derives from the people. The people elect the President and vote on key decisions.",
+    a2_title: "Article 2 – The President", a2_text: "Elected directly by majority vote for a 1-year term. No limit on re-election. The President forms the government and announces the cabinet before the election.",
+    a3_title: "Article 3 – The Court", a3_text: "A Chief Justice and several judges. The President nominates the Chief Justice within 3 days; the people confirm. Judges may veto important decisions.",
+    a4_title: "Article 4 – Checks and Balances", a4_text: "The Chief Justice may remove the President from office if the President violates the rules of the country. Other judges may raise an objection if it is well-founded.",
+    a5_title: "Article 5 – Snap Elections", a5_text: "60%+ popular demand forces the Court to approve a snap election. 20–60%: Court discretion. Under 20%: no snap election.",
+    a6_title: "Article 6 – Test Elections", a6_text: "A non-binding test election is held on the 26th of every month (except February 26th, when official elections take place).",
+    a7_title: "Article 7 – National Holiday", a7_text: "The 26th of January is the founding day of Caneland and a national holiday. A day of remembrance is also held on the 26th of every other month.",
+    a8_title: "Protection of the Constitution", a8_text: "The Constitution may only be amended if 70% of the people and a majority of the judges on the Court agree. Simple amendments by the President or individual persons are not permitted.",
+    lang_label: "Culture", lang_title: "The Canelandic Language",
+    lang_text: "Caneland has its own official language: Canelandic. It features simple grammar with no verb conjugation, no grammatical gender, and three tenses expressed through sentence-initial time words: baff (past), nau (present), dann (future).",
+    lang_src: "German",
+    hol_label: "Join", hol_title: "National Holidays",
+    hol1_name: "Founding Day", hol1_text: "The national holiday of Caneland. Official elections are held on this date each year.",
+    hol2_name: "Day of Remembrance", hol2_text: "A monthly commemoration of the founding. Non-binding test elections are held on this date.",
+    cit_title: "Become a Citizen",
+    cit_sub: "Citizenship is open to all. You may choose a Canelandic name to protect your privacy.",
+    f_caneland_name: "Desired Canelandic name", f_caneland_hint: "You can choose any name – it doesn't have to mean anything.",
+    f_country: "Country of residence", f_why: "Why do you want to become a citizen?",
+    f_why_hint: "A sentence or two is enough.",
+    f_submit: "Submit application",
+    footer_text: "Capital: Gotersburg · Founded: 26th January · Language: Canelandic"
+  },
+  de: {
+    nav_about: "Über uns", nav_constitution: "Verfassung", nav_language: "Sprache", nav_citizenship: "Staatsbürgerschaft",
+    hero_sub: "Offizielle Staatswebsite",
+    hero_desc: "Ein souveräner Staat mit eigener Sprache, Verfassung und Regierung. Gegründet am 26. Januar.",
+    about_label: "Der Staat", about_title: "Über Caneland",
+    about_text: "Caneland ist ein unabhängiger Staat mit einem vollständig ausgearbeiteten Verfassungssystem, einer eigenen Sprache (Canelandic), einer Nationalflagge und einer Hauptstadt: Gotersburg. Der Staat wurde am 26. Januar gegründet – ein Datum, das jedes Jahr als Nationalfeiertag gefeiert wird, mit einem monatlichen Gedenktag am 26. jeden Monats.",
+    stat_citizens: "Bürger", stat_city: "Stadt", stat_election: "Wahltag", stat_articles: "Verfassungsartikel",
+    const_label: "Regierung", const_title: "Die Verfassung",
+    const_text: "Caneland hat eine geschriebene Verfassung mit klarer Gewaltenteilung zwischen Präsident, Gericht und Volk. Die Verfassung kann nur mit 70 % Zustimmung des Volkes und einer Mehrheit der Richter geändert werden.",
+    a1_title: "Artikel 1 – Das Volk", a1_text: "Alle Macht geht vom Volk aus. Das Volk wählt den Präsidenten und stimmt über wichtige Entscheidungen ab.",
+    a2_title: "Artikel 2 – Der Präsident", a2_text: "Direkt gewählt, Amtszeit 1 Jahr, keine Begrenzung der Wiederwahl. Der Präsident stellt die Regierung zusammen und gibt das Kabinett vor der Wahl bekannt.",
+    a3_title: "Artikel 3 – Das Gericht", a3_text: "Ein oberster Richter und mehrere weitere Richter. Der Präsident schlägt den obersten Richter innerhalb von 3 Tagen vor; das Volk bestätigt. Richter können wichtige Entscheidungen per Veto blockieren.",
+    a4_title: "Artikel 4 – Gewaltenkontrolle", a4_text: "Der oberste Richter kann den Präsidenten absetzen, wenn dieser gegen die Regeln des Landes verstößt. Andere Richter können Einspruch erheben, wenn dies gut begründet ist.",
+    a5_title: "Artikel 5 – Neuwahlen", a5_text: "Ab 60 % Zustimmung muss das Gericht Neuwahlen genehmigen. Bei 20–60 %: Ermessenssache. Unter 20 %: keine Neuwahl.",
+    a6_title: "Artikel 6 – Testwahlen", a6_text: "Am 26. jeden Monats findet eine unverbindliche Testwahl statt (ausgenommen der 26. Januar, an dem die offiziellen Wahlen stattfinden).",
+    a7_title: "Artikel 7 – Nationalfeiertag", a7_text: "Der 26. Januar ist der Gründungstag von Caneland und nationaler Feiertag. Am 26. jeden weiteren Monats findet ein Gedenktag statt.",
+    a8_title: "Schutz der Verfassung", a8_text: "Die Verfassung darf nur geändert werden, wenn 70 % des Volkes und eine Mehrheit der Richter zustimmen. Einfaches Ändern durch den Präsidenten oder einzelne Personen ist nicht erlaubt.",
+    lang_label: "Kultur", lang_title: "Die Canelandic-Sprache",
+    lang_text: "Caneland hat eine eigene Amtssprache: Canelandic. Die Grammatik ist einfach – keine Verbkonjugation, kein grammatisches Geschlecht, und drei Zeitformen werden durch Zeitwörter am Satzanfang ausgedrückt: baff (Vergangenheit), nau (Gegenwart), dann (Zukunft).",
+    lang_src: "Deutsch",
+    hol_label: "Mitmachen", hol_title: "Nationale Feiertage",
+    hol1_name: "Gründungstag", hol1_text: "Der Nationalfeiertag von Caneland. An diesem Datum finden jährlich die offiziellen Wahlen statt.",
+    hol2_name: "Gedenktag", hol2_text: "Ein monatlicher Gedenktag an die Gründung. An diesem Datum finden unverbindliche Testwahlen statt.",
+    cit_title: "Staatsbürger werden",
+    cit_sub: "Die Staatsbürgerschaft steht allen offen. Du kannst einen Canelandic-Namen wählen, um deine Privatsphäre zu schützen.",
+    f_caneland_name: "Gewünschter Canelandic-Name", f_caneland_hint: "Du kannst jeden Namen wählen – er muss nichts bedeuten.",
+    f_country: "Wohnsitzland", f_why: "Warum möchtest du Staatsbürger werden?",
+    f_why_hint: "Ein bis zwei Sätze reichen.",
+    f_submit: "Bewerbung absenden",
+    footer_text: "Hauptstadt: Gotersburg · Gegründet: 26. Januar · Sprache: Canelandic"
+  },
+  nl: {
+    nav_about: "Over ons", nav_constitution: "Grondwet", nav_language: "Taal", nav_citizenship: "Burgerschap",
+    hero_sub: "Officiële staatswebsite",
+    hero_desc: "Een soevereine staat met een eigen taal, grondwet en regering. Opgericht op 26 januari.",
+    about_label: "De Staat", about_title: "Over Caneland",
+    about_text: "Caneland is een onafhankelijke staat met een volledig uitgewerkt grondwettelijk systeem, een eigen taal (Canelandic), een nationale vlag en een hoofdstad: Gotersburg. De staat werd opgericht op 26 januari – een datum die jaarlijks wordt gevierd als nationale feestdag, met een herdenkingsdag op de 26e van elke andere maand.",
+    stat_citizens: "Burgers", stat_city: "Stad", stat_election: "Verkiezingsdag", stat_articles: "Grondwetsartikelen",
+    const_label: "Bestuur", const_title: "De Grondwet",
+    const_text: "Caneland heeft een geschreven grondwet met een duidelijke scheiding der machten tussen de President, de Rechtbank en het Volk. De grondwet kan alleen worden gewijzigd met 70% steun van het volk en een meerderheid van rechters.",
+    a1_title: "Artikel 1 – Het Volk", a1_text: "Alle macht komt van het volk. Het volk kiest de President en stemt over belangrijke beslissingen.",
+    a2_title: "Artikel 2 – De President", a2_text: "Direct gekozen door meerderheid, ambtstermijn 1 jaar, geen limiet op herverkiezing. De President vormt de regering en kondigt het kabinet aan vóór de verkiezingen.",
+    a3_title: "Artikel 3 – De Rechtbank", a3_text: "Een hoofdrechter en meerdere rechters. De President draagt de hoofdrechter voor binnen 3 dagen; het volk bevestigt. Rechters kunnen belangrijke beslissingen vetoën.",
+    a4_title: "Artikel 4 – Machtenspreiding", a4_text: "De hoofdrechter kan de President uit zijn ambt ontzetten als de President de regels van het land schendt. Andere rechters kunnen bezwaar maken als dit goed onderbouwd is.",
+    a5_title: "Artikel 5 – Vervroegde verkiezingen", a5_text: "Bij 60%+ volkssteun moet de Rechtbank vervroegde verkiezingen goedkeuren. Bij 20–60%: naar eigen inzicht. Onder 20%: geen vervroegde verkiezingen.",
+    a6_title: "Artikel 6 – Testsverkiezingen", a6_text: "Op de 26e van elke maand vindt een niet-bindende testverkiezing plaats (behalve op 26 januari, wanneer de officiële verkiezingen plaatsvinden).",
+    a7_title: "Artikel 7 – Nationale feestdag", a7_text: "De 26e januari is de stichtingsdag van Caneland en een nationale feestdag. Op de 26e van elke andere maand vindt een herdenkingsdag plaats.",
+    a8_title: "Bescherming van de Grondwet", a8_text: "De grondwet mag alleen worden gewijzigd als 70% van het volk en een meerderheid van de rechters instemmen. Eenvoudige wijzigingen door de President of individuen zijn niet toegestaan.",
+    lang_label: "Cultuur", lang_title: "De Canelandic-taal",
+    lang_text: "Caneland heeft een eigen officiële taal: Canelandic. De grammatica is eenvoudig – geen werkwoordsvervoeging, geen grammaticaal geslacht, en drie tijden worden uitgedrukt via tijdwoorden aan het begin van de zin: baff (verleden), nau (heden), dann (toekomst).",
+    lang_src: "Duits",
+    hol_label: "Meedoen", hol_title: "Nationale feestdagen",
+    hol1_name: "Stichtingsdag", hol1_text: "De nationale feestdag van Caneland. Op deze datum vinden jaarlijks de officiële verkiezingen plaats.",
+    hol2_name: "Herdenkingsdag", hol2_text: "Een maandelijkse herdenking van de oprichting. Op deze datum vinden niet-bindende testverkiezingen plaats.",
+    cit_title: "Word burger",
+    cit_sub: "Burgerschap staat open voor iedereen. Je kunt een Canelandic-naam kiezen om je privacy te beschermen.",
+    f_caneland_name: "Gewenste Canelandic-naam", f_caneland_hint: "Je kunt elke naam kiezen – hij hoeft nergens naar te verwijzen.",
+    f_country: "Land van verblijf", f_why: "Waarom wil je burger worden?",
+    f_why_hint: "Één of twee zinnen zijn voldoende.",
+    f_submit: "Aanvraag indienen",
+    footer_text: "Hoofdstad: Gotersburg · Opgericht: 26 januari · Taal: Canelandic"
+  }
+};
+
+let lang = 'en';
+
+function setLang(l) {
+  lang = l;
+  document.querySelectorAll('.lang-switcher button').forEach(b => b.classList.toggle('active', b.dataset.lang === l));
+  document.querySelectorAll('[data-t]').forEach(el => {
+    const key = el.dataset.t;
+    if (T[l][key] !== undefined) el.innerHTML = T[l][key];
+  });
+}
+</script>
+
+<div class="lang-switcher">
+  <button data-lang="de" onclick="setLang('de')">DE</button>
+  <button data-lang="nl" onclick="setLang('nl')">NL</button>
+  <button data-lang="en" onclick="setLang('en')" class="active">EN</button>
+</div>
+
+<div class="flag-bar"><div class="f1"></div><div class="f2"></div><div class="f3"></div></div>
+
+<nav>
+  <div class="logo">CANELAND</div>
+  <ul>
+    <li><a href="#about" data-t="nav_about">About</a></li>
+    <li><a href="#constitution" data-t="nav_constitution">Constitution</a></li>
+    <li><a href="#language" data-t="nav_language">Language</a></li>
+    <li><a href="#citizenship" data-t="nav_citizenship">Citizenship</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-flag"><div class="hf1"></div><div class="hf2"></div><div class="hf3"></div></div>
+    <p class="hero-sub" data-t="hero_sub">Official State Website</p>
+    <h1>Caneland</h1>
+    <div class="gold-line"></div>
+    <p data-t="hero_desc">A sovereign state with its own language, constitution, and government. Founded on the 26th of January.</p>
+  </div>
+</div>
+
+<section id="about">
+  <p class="section-label" data-t="about_label">The State</p>
+  <h2 data-t="about_title">About Caneland</h2>
+  <p data-t="about_text">Caneland is an independent state with a fully developed constitutional system, its own language (Canelandic), a national flag, and a capital city: Gotersburg.</p>
+  <div class="stats">
+    <div class="stat"><div class="stat-num" id="citizen-count">0</div><div class="stat-label" data-t="stat_citizens">Citizens</div></div>
+    <div class="stat"><div class="stat-num">1</div><div class="stat-label" data-t="stat_city">City</div></div>
+    <div class="stat"><div class="stat-num">26</div><div class="stat-label" data-t="stat_election">Election day</div></div>
+    <div class="stat"><div class="stat-num">7</div><div class="stat-label" data-t="stat_articles">Constitutional articles</div></div>
+  </div>
+</section>
+
+<section id="constitution">
+  <p class="section-label" data-t="const_label">Governance</p>
+  <h2 data-t="const_title">The Constitution</h2>
+  <p data-t="const_text">Caneland operates under a written constitution with clear separation of powers.</p>
+  <div class="articles">
+    <div class="article-card"><h3 data-t="a1_title">Article 1 – The People</h3><p data-t="a1_text">All power in the state derives from the people.</p></div>
+    <div class="article-card"><h3 data-t="a2_title">Article 2 – The President</h3><p data-t="a2_text">Elected directly by majority vote for a 1-year term.</p></div>
+    <div class="article-card"><h3 data-t="a3_title">Article 3 – The Court</h3><p data-t="a3_text">A Chief Justice and several judges.</p></div>
+    <div class="article-card"><h3 data-t="a4_title">Article 4 – Checks and Balances</h3><p data-t="a4_text">The Chief Justice may remove the President from office if the President violates the rules of the country. Other judges may raise an objection if it is well-founded.</p></div>
+    <div class="article-card"><h3 data-t="a5_title">Article 5 – Snap Elections</h3><p data-t="a5_text">60%+ popular demand forces the Court to approve a snap election.</p></div>
+    <div class="article-card"><h3 data-t="a6_title">Article 6 – Test Elections</h3><p data-t="a6_text">A non-binding test election is held on the 26th of every month.</p></div>
+    <div class="article-card"><h3 data-t="a7_title">Article 7 – National Holiday</h3><p data-t="a7_text">The 26th of January is the founding day of Caneland and a national holiday. A day of remembrance is also held on the 26th of every other month.</p></div>
+    <div class="article-card"><h3 data-t="a8_title">Protection of the Constitution</h3><p data-t="a8_text">The Constitution may only be amended if 70% of the people and a majority of the judges on the Court agree. Simple amendments by the President or individual persons are not permitted.</p></div>
+  </div>
+</section>
+
+<section id="language">
+  <p class="section-label" data-t="lang_label">Culture</p>
+  <h2 data-t="lang_title">The Canelandic Language</h2>
+  <p data-t="lang_text">Caneland has its own official language: Canelandic.</p>
+  <div class="lang-grid">
+    <div class="lang-card"><div class="canelandic">hopala</div><div class="meaning">Hello / Hallo / Hallo</div></div>
+    <div class="lang-card"><div class="canelandic">dange</div><div class="meaning">Thank you / Danke / Bedankt</div></div>
+    <div class="lang-card"><div class="canelandic">nepala</div><div class="meaning">Goodbye / Tschüss / Doei</div></div>
+    <div class="lang-card"><div class="canelandic">jo / ne</div><div class="meaning">Yes / No · Ja / Nein · Ja / Nee</div></div>
+    <div class="lang-card"><div class="canelandic">waekk?</div><div class="meaning">How are you? / Wie geht's? / Hoe gaat het?</div></div>
+    <div class="lang-card"><div class="canelandic">joekk</div><div class="meaning">I'm well / Mir geht's gut / Goed</div></div>
+    <div class="lang-card"><div class="canelandic">woepala</div><div class="meaning">Welcome / Willkommen / Welkom</div></div>
+    <div class="lang-card"><div class="canelandic">gottlang</div><div class="meaning">Good luck / Viel Glück / Veel succes</div></div>
+  </div>
+</section>
+
+<section id="citizenship">
+  <p class="section-label" data-t="hol_label">Join</p>
+  <h2 data-t="hol_title">National Holidays</h2>
+  <div class="holiday-row">
+    <div class="holiday-date"><div class="day">26</div><div class="month">Jan</div></div>
+    <div><strong data-t="hol1_name">Founding Day</strong> – <span data-t="hol1_text">The national holiday of Caneland. Official elections are held on this date each year.</span></div>
+  </div>
+  <div class="holiday-row" style="margin-top:1rem">
+    <div class="holiday-date"><div class="day">26</div><div class="month" data-t="stat_election" style="font-size:0.6rem">Every month</div></div>
+    <div><strong data-t="hol2_name">Day of Remembrance</strong> – <span data-t="hol2_text">A monthly commemoration of the founding.</span></div>
+  </div>
+
+  <div class="citizenship-box" style="margin-top:3rem">
+    <h3 data-t="cit_title">Become a Citizen</h3>
+    <p class="sub" data-t="cit_sub">Citizenship is open to all. You may choose a Canelandic name to protect your privacy.</p>
+
+    <div class="app-form">
+      <div>
+        <label data-t="f_caneland_name">Desired Canelandic name</label>
+        <input type="text" id="f-name" placeholder="e.g. Torven, Malkke, Nello...">
+        <p class="hint" data-t="f_caneland_hint">You can choose any name – it doesn't have to mean anything.</p>
+      </div>
+      <div>
+        <label data-t="f_country">Country of residence</label>
+        <input type="text" id="f-country" placeholder="Germany, Netherlands, ...">
+      </div>
+      <div>
+        <label data-t="f_why">Why do you want to become a citizen?</label>
+        <textarea id="f-why" placeholder="..."></textarea>
+        <p class="hint" data-t="f_why_hint">A sentence or two is enough.</p>
+      </div>
+      <button class="btn-submit" onclick="submitApp()" data-t="f_submit">Submit application</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© Caneland &nbsp;·&nbsp; <span data-t="footer_text">Capital: Gotersburg · Founded: 26th January · Language: Canelandic</span></p>
+</footer>
+
+<script>
+document.getElementById('citizen-count').textContent = EINWOHNER;
+
+function submitApp() {
+  const name = document.getElementById('f-name').value.trim();
+  const country = document.getElementById('f-country').value.trim();
+  const why = document.getElementById('f-why').value.trim();
+  if (!name || !country || !why) { alert('Please fill in all fields.'); return; }
+  const subject = encodeURIComponent('Caneland Citizenship Application – ' + name);
+  const body = encodeURIComponent(
+    'Canelandic name: ' + name + '\n' +
+    'Country: ' + country + '\n\n' +
+    'Why I want to become a citizen:\n' + why
+  );
+  window.location.href = 'mailto:caneland26.1@gmail.com?subject=' + subject + '&body=' + body;
+}
+</script>
+
+</body>
+</html>
