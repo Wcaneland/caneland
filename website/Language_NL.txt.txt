@@ -1,0 +1,708 @@
+Vraagwoorden-Askingwotta
+wie-we
+wat-wat
+wanneer-wenn
+waar-wo
+waarnaartoe-wogoy
+waarvandaan-woe
+waarom-warom
+waarom-wei
+waarom-wei
+hoe-hau
+hoeveel-hau muj
+hoeveel-hau muj
+welk-wooh
+welke-wooh
+welk-wooh
+aan wie-hu
+wie-hu
+van wie-hits
+Persoonlijke voornaamwoorden-Perwolwotta
+ik-ick
+jij-tu
+hij-he
+zij-li
+het-et
+wij-woeck
+jullie-wick
+men-jema
+iemand-jema
+niemand-nejema
+allen-ajema
+sommige-jema
+veel-full
+weinig-nefull
+Belangrijke hulpwoorden-Importe Hefewotta
+ja-jo
+nee-ne
+misschien-yoin
+oké-ok
+alstublieft-bidde
+dank je-dange
+graag gedaan-genn
+hallo-hopala
+tot ziens-nepala
+welkom-woepala
+sorry-hoppalla
+sorry-hoppalla
+natuurlijk-yokle
+echt-for
+zeker-yokle
+bepaald-yokle
+mogelijk-yokle
+onmogelijk-neyokle
+Tijdwoorden-Timwotta
+vandaag-hopatt
+gisteren-nehopatt
+morgen-moro
+nu-jett
+direct-jett
+later-moro
+binnenkort-balt
+vroeg-erl
+'s morgens vroeg-erl motto
+'s middags-midde
+'s avonds-ende
+'s nachts-nacht
+toen-beffo
+altijd-imma
+nooit-neimma
+soms-mannma
+vaak-yoinimma
+zelden-wonnemma
+eerst-ho
+daarna-neho
+tenslotte-endo
+plotseling-rann
+Richtingen & Plaatsen- Reitgoy & Play
+hier-hier
+daar-da
+links-link
+rechts-recht
+boven-obben
+beneden-unden
+voren-fronne
+achter-hinden
+binnen-in
+buiten-nein
+dichtbij-nahe
+ver-nenahe
+thuis-homme
+stad-borg
+dorp-borg
+land-land
+straat-goyk
+weg-goyk
+plein-play
+school-leck
+werk-klappe
+huis-homm
+appartement-homm
+kamer-hommenn
+keuken-kolke
+badkamer-batt
+tuin-garden
+park-garden
+winkel-laden
+markt-mackt
+station-trennhaufen
+luchthaven-fluggaffen
+ziekenhuis-krankenhuis
+restaurant-kolkhome
+hotel-hotall
+strand-placha
+zee-wattaplay
+berg-hohplay
+bos-bummplay
+rivier-nettaplay
+eiland-kleinplay
+Mensen & Familie-Personal & Personalwoeck
+mens-personna
+persoon-personna
+Kind-kid
+baby-baby
+man-macke
+vrouw-fracke
+jongen-kleinmacke
+meisje-kleinfracke
+vriend-frennd
+vriendin-frennd
+Familie-personalwoeck
+moeder-motta
+vader-makka
+mama-motta
+papa-makka
+broer-bru
+zus-fru
+opa-granmakka
+oma-granmotta
+zoon-brull
+dochter-frull
+echtgenote-heilfracke
+echtgenoot-heilmacke
+buurman-nahehomme
+gast-nehomme
+baas-bold
+collega-nabold
+leraar-leckbold
+leerling-lecknakk
+dokter-hohebold
+politieagent-hohepersonalmillita
+Lichaam-body
+hoofd-head
+gezicht-fratze
+oog-auje
+neus-naje
+mond-redje
+oor-höhrje
+haar-hoor
+nek-nahhead
+arm-arm
+hand-hand
+vinger-nahhand
+been-leg
+voet-nahleg
+hart-heilmidde
+rug-rair
+buik-fronnerair
+huid-hatt
+bloed-blutt
+botten-kolken
+Gevoelens-fillen
+liefde-heilen
+haat-nehlenn
+angst-angst
+vreugde-freheten
+geluk-freheten
+verdriet-neheten
+woede-wutt
+stress-nahwutt
+rust-newutt
+hoop-freheten
+moed-freheten
+vertrouwen-frekken
+trots-frekken
+schaamte-nefrekken
+verrassing-unelken
+verveling-nelken
+Weer & Natuur-Wair & Nahplay
+zon-offen
+maan-duenkel
+ster-duenkel
+hemel-flugplay
+wolk-wolk
+regen-woelk
+sneeuw-woelk
+wind-nahwair
+storm-fullwair
+vuur-warma
+water-wata
+aarde-eart
+lucht-flugmatte
+ijs-eis
+boom-bumm
+bloem-kleinbumm
+gras-gras
+plant-kleinbumm
+dier-animall
+hond-hutt
+kat-katt
+vogel-vott
+vis-fitt
+paard-pett
+Eten & Drinken- Ammam & Dringen
+eten-Ammam
+drinken-dringen
+brood-brot
+melk-wetwatta
+sap-wetwatta
+thee-tekk
+koffie-katekk
+soep-suup
+rijst-reis
+noodels-toffeln
+vlees-nimall
+ei-eck
+kaas-keete
+boter-buddar
+zout-saltt
+suiker-waltt
+fruit-obst
+appel-apell
+banaan-bananne
+sinaasappel-orangee
+groente-neest
+aardappel-toofel
+tomaat-rotneest
+salade-grinnnest
+taart-kake
+chocolade-kakel
+pizza-pizza
+burger-boerga
+sandwich-boerga
+honing-obta
+jam-obstobta
+yoghurt-obda
+worstje-nimall
+kip-ecklook
+rundvlees-nimall
+lamsvlees-nimall
+paprika-rotneesta
+ui-neesta
+knoflook-neesta
+komkommer-grinnnesta
+druif-pillobst
+citroen-gelkke
+kokosnoot-brocken
+mango-lecko
+watermeloen-wattalonn
+ijs-eiswatta
+koekje-kecks
+chips-kecksa
+Fastfood-keckmall
+ontbijt-erlmal
+lunch-middelmal
+avondeten-endmal
+snack-obt
+maaltijd-mal
+honger-mallu
+dorst-drinkmal
+koken-kolken
+bakken-kolken
+braden-kolken
+snijden-trennen
+mengen-foren
+proeven-lecka
+zoet-lecka
+zout-subbe
+bitter-kotte
+pittig-aallttee
+lekker-lecka
+vies-nelecka
+vers-naumal
+warm-warmen
+koud-nemmen
+Activiteiten & Vrije tijd-Aktiewiteten & Frewitten
+spelen-ocken
+dansen-tacken
+zingen-lacken
+reizen-tracken
+wandelen-ducken
+zwemmen-waducken
+trainen-tranken
+vechten-treten
+tekenen-malen
+schilderen-malen
+lezen-lee
+schrijven-leenau
+leren-lee
+ontspannen-newuttn
+slapen-newuttn
+feesten-flakkn
+lachen-lakkn
+wandelen-goy
+telefoneren-telln
+fotograferen-nauauje
+filmen-nauauje
+streamen-nauauje
+programmeren-naumakken
+bouwen-baun
+verzamelen-tragen
+jagen-hunten
+vissen-fitthunten
+barbecueën-kolken
+kamperen-campen
+chatten-tellen
+winkelen-buyn
+luisteren-netellen
+mediteren-frellteehenn
+winnen-winnen
+verliezen-newinnen
+oefenen-uben
+verkennen-naugoy
+ontdekken-naugoy
+Oorlog, Vrede & Militair-War, Friden & Milita
+oorlog-war
+vrede-frieden
+verdediging-halten
+aanval-warnen
+soldaat-mlitafrekken
+leger-armee
+generaal-armeehefe
+commandant-armehefe
+wapen-wane
+zwaard-wane
+schild-kild
+bom-bomb
+raket-bomb
+tank-wanka
+geweer-wane
+munitie-arrow
+explosie-bomboll
+slag-armeebomboll
+gevecht-armeebomboll
+vijand-henningskind
+bondgenoot-frennd
+alliantie-frenndunn
+invasie-armeebomboll
+bezetting-armeeerfolg
+grens-wall
+overwinning-frehet
+nederlaag-nefrehet
+overgeven-nefrehet
+redden-hefen
+beschermen-hefen
+aanvallen-attakken
+verdedigen-hefen
+vluchten-goybomboll
+overleven-leben
+vernietigen-haun
+veroveren-naugoyn
+bevrijden-hefen
+onderhandelen-friedennen
+waarschuwing-hefe
+strategie-taktic
+tactiek-taktic
+spion-takticarmee
+gevangene-henningskind
+gevaar-halt
+chaos-halt
+revolutie-haltfrieden
+weerstand-haltfrieden
+patriot-frekk
+held-frekk
+slachtoffer-ruhn
+vredesverdrag-frieden
+Kleding-clotten
+hemd-hett
+broek-hoes
+jas-jaeck
+mantel-mattel
+schoen-clu
+sok-nahclu
+muts-clottenhead
+handschoen-clottenhand
+bril-aujeclott
+tas-tarte
+ring-ring
+ketting-cette
+Huis & Dingen-Home & Ding
+tafel-bank
+stoel-obank
+bed-laybank
+kast-lager
+deur-toer
+raam-wido
+lamp-leitel
+spiegel-leitelwand
+klok-aujenohr
+telefoon-tele
+computer-teleblock
+scherm-teleblock
+boek-aujee
+papier-cane
+pen-aujenclott
+fles-dringclott
+kop-dringclott
+bord-amamclott
+mes-amamwane
+vork-amamwane
+lepel-amamwane
+sleutel-clolkken
+geld-moni
+Verkeer-goyneinen
+auto-goylo
+bus-goylo
+trein-meincart
+fiets-meinrad
+motor-meirad
+schip-boot
+vliegtuig-flugclott
+ticket-ticket
+brug-wattagoyk
+station-tata
+reis-reisgoy
+vakantie-reisgoy
+School & Werk-Leck & Klappe
+klas-leckhome
+huiswerk-homeklappe
+examen-leckklappe
+vraag-asking
+antwoord-enking
+fout-falo
+voorbeeld-exampel
+beroep-klapp
+baan-klapp
+bedrijf-klappmakk
+kantoor-klapphome
+project-protocoll
+plan-plan
+doel-ende
+idee-ide
+probleem-prolemm
+oplossing-endlemm
+Techniek & Media-Teknolo & Media
+internet-internett
+website-website
+video-video
+muziek-music
+film-video
+spel-game
+mobiel-tele
+bericht-testo
+foto-foto
+camera-fototekk
+batterij-baterry
+stroom-energ
+Maatschappij-Perwollatt
+wet-roll
+politiek-poletek
+taal-lange
+cultuur-kultur
+religie-relichjonn
+geschiedenis-gekitt
+volk-woekke
+groep-grupp
+team-grupp
+Belangrijke werkwoorden-Importe Machen
+Beweging-goy
+gaan-goy
+komen-goy
+lopen-goy
+rennen-goy
+springen-clup
+zitten-klitten
+staan-halten
+liggen-kitten
+rijden-farren
+vliegen-flug
+klimmen-klettern
+vallen-falken
+draaien-toern
+volgen-folgoy
+Communicatie-Lange
+zeggen-langen
+spreken-langen
+praten-langen
+vragen-askenn
+antwoorden-endaskel
+vertellen-langen
+uitleggen-langen
+horen-hor
+tonen-augoy
+noemen-naukenn
+roepen-langen
+Dagelijks leven-Norma
+opstaan-nekitten
+werken-klappen
+kopen-kain
+verkopen-nekain
+betalen-klakain
+openen-oppen
+sluiten-neppen
+zoeken-dingan
+vinden-ningann
+gebruiken-benulkenn
+nodig hebben-braun
+helpen-hefen
+wachten-watten
+ontmoeten-meetenn
+bezoeken-homegoy
+Denken & Gevoelens-Gefoelenn & Gefoel
+denken-gefoelenn
+weten-nonkenn
+begrijpen-nonkenn
+vergeten-neben
+herinneren-benn
+geloven-gefoelenn
+hopen-gefoelenn
+voelen-gefoellenn
+houden van-heilen
+haten-neilen
+huilen-neetenn
+leuk vinden-mag
+willen-woll
+wensen-gefoelenn
+Maken-Makken
+maken-naubaun
+repareren-naubaun
+wassen-watennn
+schoonmaken-watennn
+dragen-traje
+geven-gebe
+nemen-naemenn
+houden-halten
+Belangrijke bijvoeglijke naamwoorden-Importe Sein
+Grootte & Vorm-Groekke & Form
+groot-goekk
+klein-kleen
+lang-lang
+kort-nelang
+breed-lang
+smal-nelang
+dik-lang
+dun-nelang
+rond-lang
+hoekig-eckenikk
+diep-tuff
+hoog-neff
+Kwaliteit-Gutentut
+goed-gut
+slecht-negut
+perfect-gut
+kapot-negut
+schoon-clean
+vies-neclean
+sterk-takk
+zwak-netakk
+snel-niao
+langzaam-puff
+licht-leit
+zwaar-neitt
+Leeftijd & Tijd-Altten & Tim
+nieuw-neu
+oud-ald
+jong-neu
+modern-neu
+laat-ald
+Kleuren-Collen
+rood-rot
+blauw-blau
+groen-grinn
+geel-yellow
+zwart-black
+wit-weit
+grijs-grei
+bruin-brei
+roze-lila
+paars-lila
+Voegwoorden-Connwotta
+en-u
+of-o
+maar-a
+omdat-wei
+want-den
+hoewel-ob
+als-wen
+dan-dan
+dus-all
+daarom-deh
+ondanks dat-trotten
+voordat-befor
+nadat-nefor
+tijdens-nau
+dat-datt
+Hoeveelheidwoorden-Vielwotta
+alles-ale
+niets-nele
+iets-ewwa
+veel-viel
+weinig-neviel
+meer-mer
+minder-nemer
+genoeg-enott
+te veel-tuviel
+volledig-full
+half-nefull
+Getallen-Nomen
+nul-noll
+één-e
+twee-teee
+drie-dree
+vier-feee
+vijf-fu
+zes-nekk
+zeven-nakk
+acht-akk
+negen-noin
+tien-fue
+twintig-teeefue
+dertig-dreefue
+veertig-feeefue
+vijftig-fufue
+zestig-nekkfue
+zeventig-nakkfue
+tachtig-akkfue
+negentig-noinfue
+honderd-full
+duizend-fullte
+miljoen-fulltenn
+Veelvoorkomende zinswoorden-Importe Fullwotta
+ook-tambie
+alleen-nonly
+al-cloon
+nog-nokk
+weer-widda
+bijna-nend
+ongeveer-nend
+Typische gesprekszinnen-Importe Fullwotta
+hoe gaat het met je-waekk
+met mij gaat het goed-joekk
+wat doe je-kadumm
+waar kom je vandaan-wogoydu
+hoe heet je-wienamedu
+ik begrijp het niet-ideno
+kun je dat herhalen-ideno
+wat betekent dat-ideno
+ik ben het ermee eens-jo
+ik denk het wel-jo
+geen idee-ideno
+dat is interessant-joheten
+veel geluk-gottlang
+goedenacht-gottlang
+tot later-gottgoy
+Zeer 
+belangrijke extra werkwoorden-Importe Machen
+zijn-sei
+hebben-hatt
+worden-woerd
+kunnen-konnen
+moeten-hetu
+mogen-konnen
+moeten-hetu
+blijven-halten
+beginnen-nende
+eindigen-enden
+gebeuren-happen
+veranderen-andachen
+proberen-proben
+lukken-didn
+
+---Grammatica & Regels---
+
+Zinsbouw-Rulenlong
+
+Mededelende zin: [Zin] + [Tijdwoord]
+Vraagzin: Activiteit, wie/wat (hoe) (waar)?
+Ontkenning: "Nie" + wie/wat + Activiteit (hoe) (waar)
+
+Lidwoorden-Rulen
+lö = 1 (bepaald/onbepaald lidwoord, enkelvoud)
+de = 2 (lidwoord voor meervoud / meerdere dingen)
+Lidwoorden staan altijd voor zelfstandige naamwoorden en personen.
+Voor meerdere dingen verandert de vorm van geen enkel woord – er wordt alleen het getal voor het woord geplaatst (of het woord voor "meerdere": de)
+
+Tijden-Rulen
+De tijd wordt uitgedrukt door een tijdwoord aan het begin van de zin:
+baff = vroeger
+nau = nu/momenteel
+dann = later/hierna
+
+Leestekens-Rulen
+.
+= altijd (alleen) aan het einde van de zin
+, = alleen bij opsommingen
+?
+= vervangt de punt aan het einde van een vraagzin (staat dus alleen aan het einde, niet aan het begin)
+
+Schrijfwijze-Rulen
+Alles wordt met kleine letters geschreven, behalve de eerste letter aan het begin van de zin.
+Persoonlijke voornaamwoorden-Rulen
+ick = ik
+du = jij
+lö = hij / er (lidwoord enkelvoud)
+de = zij (enkelvoud) / de (lidwoord)
+woek = wij
+ir = jullie
+dey = zij (meervoud)
+(Vormen veranderen nooit – altijd hetzelfde)

@@ -1,0 +1,738 @@
+Question Words-Askingwotta
+who-we
+what-wat
+when-wenn
+where-wo
+where to-wogoy
+where from-woe
+why-warom
+why-wei
+for what reason-wei
+how-hau
+how much-hau muj
+how many-hau muj
+which (m)-wooh
+which (f/pl)-wooh
+which (n)-wooh
+to whom-hu
+whom-hu
+whose-hits
+
+Pronouns-Perwolwotta
+I-ick
+you (sg.)-tu
+he-he
+she-li
+it-et
+we-woeck
+you (pl.)-wick
+one/they-jema
+someone-jema
+nobody-nejema
+everyone/all-ajema
+some-jema
+many-full
+few-nefull
+
+Important Auxiliary Words-Importe Hefewotta
+yes-jo
+no-ne
+maybe-yoin
+okay-ok
+please-bidde
+thank you-dange
+gladly-genn
+hello-hopala
+bye-nepala
+welcome-woepala
+excuse me-hoppalla
+sorry-hoppalla
+of course-yokle
+really-for
+sure-yokle
+definitely-yokle
+possible-yokle
+impossible-neyokle
+
+Time Words-Timwotta
+today-hopatt
+yesterday-nehopatt
+tomorrow-moro
+now-jett
+immediately-jett
+later-moro
+soon-balt
+early-erl
+early in the morning-erl motto
+at noon-midde
+in the evening-ende
+at night-nacht
+back then-beffo
+always-imma
+never-neimma
+sometimes-mannma
+often-yoinimma
+rarely-wonnemma
+first-ho
+afterwards-neho
+last-endo
+suddenly-rann
+
+Directions & Places- Reitgoy & Play
+here-hier
+there-da
+left-link
+right-recht
+above/up-obben
+below/down-unden
+front-fronne
+back/behind-hinden
+inside-in
+outside-nein
+near-nahe
+far-nenahe
+at home-homme
+city-borg
+village-borg
+country-land
+street-goyk
+path/way-goyk
+square/place-play
+school-leck
+work-klappe
+house-homm
+apartment-homm
+room-hommenn
+kitchen-kolke
+bathroom-batt
+garden-garden
+park-garden
+shop/store-laden
+market-mackt
+train station-trennhaufen
+airport-fluggaffen
+hospital-krankenhuis
+restaurant-kolkhome
+hotel-hotall
+beach-placha
+sea-wattaplay
+mountain-hohplay
+forest-bummplay
+river-nettaplay
+island-kleinplay
+
+People & Family-Personal & Personalwoeck
+human-personna
+person-personna
+child-kid
+baby-baby
+man-macke
+woman-fracke
+boy-kleinmacke
+girl-kleinfracke
+friend (m)-frennd
+friend (f)-frennd
+Family-personalwoeck
+mother-motta
+father-makka
+mom-motta
+dad-makka
+brother-bru
+sister-fru
+grandpa-granmakka
+grandma-granmotta
+son-brull
+daughter-frull
+wife-heilfracke
+husband-heilmacke
+neighbor-nahehomme
+guest-nehomme
+boss-bold
+colleague-nabold
+teacher-leckbold
+student/pupil-lecknakk
+doctor-hohebold
+police officer-hohepersonalmillita
+
+Body-body
+head-head
+face-fratze
+eye-auje
+nose-naje
+mouth-redje
+ear-höhrje
+hair-hoor
+neck-nahhead
+arm-arm
+hand-hand
+finger-nahhand
+leg-leg
+foot-nahleg
+heart-heilmidde
+back-rair
+stomach/belly-fronnerair
+skin-hatt
+blood-blutt
+bone-kolken
+
+Feelings-fillen
+love-heilen
+hate-nehlenn
+fear-angst
+joy-freheten
+luck/happiness-freheten
+sadness-neheten
+anger-wutt
+stress-nahwutt
+calm/peace-newutt
+hope-freheten
+courage-freheten
+trust-frekken
+pride-frekken
+shame-nefrekken
+surprise-unelken
+boredom-nelken
+
+Weather & Nature-Wair & Nahplay
+sun-offen
+moon-duenkel
+star-duenkel
+sky-flugplay
+cloud-wolk
+rain-woelk
+snow-woelk
+wind-nahwair
+storm-fullwair
+fire-warma
+water-wata
+earth-eart
+air-flugmatte
+ice-eis
+tree-bumm
+flower-kleinbumm
+grass-gras
+plant-kleinbumm
+animal-animall
+dog-hutt
+cat-katt
+bird-vott
+fish-fitt
+horse-pett
+
+Food & Drinks- Ammam & Dringen
+eat/food-Ammam
+drink-dringen
+bread-brot
+milk-wetwatta
+juice-wetwatta
+tea-tekk
+coffee-katekk
+soup-suup
+rice-reis
+pasta/noodles-toffeln
+meat-nimall
+egg-eck
+cheese-keete
+butter-buddar
+salt-saltt
+sugar-waltt
+fruit-obst
+apple-apell
+banana-bananne
+orange-orangee
+vegetables-neest
+potato-toofel
+tomato-rotneest
+salad-grinnnest
+cake-kake
+chocolate-kakel
+pizza-pizza
+burger-boerga
+sandwich-boerga
+honey-obta
+jam-obstobta
+yogurt-obda
+sausage-nimall
+chicken-ecklook
+beef-nimall
+mutton/lamb-nimall
+bell pepper-rotneesta
+onion-neesta
+garlic-neesta
+cucumber-grinnnesta
+grape-pillobst
+lemon-gelkke
+coconut-brocken
+mango-lecko
+watermelon-wattalonn
+ice cream-eiswatta
+cookie-kecks
+chips-kecksa
+Fast food-keckmall
+breakfast-erlmal
+lunch-middelmal
+dinner-endmal
+snack-obt
+meal-mal
+hunger-mallu
+thirst-drinkmal
+cook-kolken
+bake-kolken
+fry/roast-kolken
+cut-trennen
+mix-foren
+taste-lecka
+sweet-lecka
+salty-subbe
+bitter-kotte
+spicy-aallttee
+delicious-lecka
+disgusting-nelecka
+fresh-naumal
+warm-warmen
+cold-nemmen
+
+Activities & Leisure-Aktiewiteten & Frewitten
+play-ocken
+dance-tacken
+sing-lacken
+travel-tracken
+hike-ducken
+swim-waducken
+train/exercise-tranken
+fight-treten
+draw-malen
+paint-malen
+read-lee
+write-leenau
+learn-lee
+relax-newuttn
+sleep-newuttn
+celebrate/party-flakkn
+laugh-lakkn
+walk-goy
+make a call-telln
+take photos-nauauje
+film-nauauje
+stream-nauauje
+program/code-naumakken
+build-baun
+collect-tragen
+hunt-hunten
+fish-fitthunten
+barbecue-kolken
+camp-campen
+chat-tellen
+shop/buy-buyn
+listen-netellen
+meditate-frellteehenn
+win-winnen
+lose-newinnen
+practice-uben
+explore-naugoy
+discover-naugoy
+
+War, Peace & Military-War, Friden & Milita
+war-war
+peace-frieden
+defense-halten
+attack-warnen
+soldier-mlitafrekken
+army-armee
+general-armeehefe
+commander-armehefe
+weapon-wane
+sword-wane
+shield-kild
+bomb-bomb
+rocket/missile-bomb
+tank-wanka
+rifle-wane
+ammunition-arrow
+explosion-bomboll
+battle-armeebomboll
+fight/combat-armeebomboll
+enemy-henningskind
+ally-frennd
+alliance-frenndunn
+invasion-armeebomboll
+occupation-armeeerfolg
+border-wall
+victory-frehet
+defeat-nefrehet
+surrender-nefrehet
+rescue-hefen
+protect-hefen
+attack-attakken
+defend-hefen
+flee-goybomboll
+survive-leben
+destroy-haun
+conquer-naugoyn
+liberate-hefen
+negotiate-friedennen
+warning-hefe
+strategy-taktic
+tactics-taktic
+spy-takticarmee
+prisoner-henningskind
+danger-halt
+chaos-halt
+revolution-haltfrieden
+resistance-haltfrieden
+patriot-frekk
+hero-frekk
+victim/sacrifice-ruhn
+peace treaty-frieden
+
+Clothing-clotten
+shirt-hett
+pants-hoes
+jacket-jaeck
+coat-mattel
+shoe-clu
+sock-nahclu
+cap/beanie-clottenhead
+glove-clottenhand
+glasses-aujeclott
+bag-tarte
+ring-ring
+necklace/chain-cette
+
+House & Things-Home & Ding
+table-bank
+chair-obank
+bed-laybank
+closet/cupboard-lager
+door-toer
+window-wido
+lamp-leitel
+mirror-leitelwand
+clock/watch-aujenohr
+phone-tele
+computer-teleblock
+monitor/screen-teleblock
+book-aujee
+paper-cane
+pen/pencil-aujenclott
+bottle-dringclott
+cup/mug-dringclott
+plate-amamclott
+knife-amamwane
+fork-amamwane
+spoon-amamwane
+key-clolkken
+money-moni
+
+Traffic/Transport-goyneinen
+car-goylo
+bus-goylo
+train-meincart
+bicycle-meinrad
+motorcycle-meirad
+ship-boot
+airplane-flugclott
+ticket-ticket
+bridge-wattagoyk
+station-tata
+trip/journey-reisgoy
+vacation-reisgoy
+
+School & Work-Leck & Klappe
+class/classroom-leckhome
+homework-homeklappe
+exam/test-leckklappe
+question-asking
+answer-enking
+mistake/error-falo
+example-exampel
+profession-klapp
+job-klapp
+company-klappmakk
+office-klapphome
+project-protocoll
+plan-plan
+goal/target-ende
+idea-ide
+problem-prolemm
+solution-endlemm
+
+Technology & Media-Teknolo & Media
+internet-internett
+website-website
+video-video
+music-music
+movie/film-video
+game-game
+mobile phone-tele
+message-testo
+photo-foto
+camera-fototekk
+battery-baterry
+electricity/power-energ
+
+Society-Perwollatt
+law-roll
+politics-poletek
+language-lange
+culture-kultur
+religion-relichjonn
+history-gekitt
+people/nation-woekke
+group-grupp
+team-grupp
+
+Important Verbs-Importe Machen
+Movement-goy
+go/walk-goy
+come-goy
+run/walk-goy
+run-goy
+jump-clup
+sit-klitten
+stand-halten
+lie down-kitten
+drive/travel-farren
+fly-flug
+climb-klettern
+fall-falken
+turn/rotate-toern
+follow-folgoy
+
+Communication-Lange
+say-langen
+speak-langen
+talk-langen
+ask-askenn
+answer-endaskel
+tell/narrate-langen
+explain-langen
+hear/listen-hor
+show-augoy
+call/name-naukenn
+call/shout-langen
+
+Daily Life-Norma
+get up-nekitten
+work-klappen
+buy-kain
+sell-nekain
+pay-klakain
+open-oppen
+close-neppen
+search-dingan
+find-ningann
+use-benulkenn
+need-braun
+help-hefen
+wait-watten
+meet-meetenn
+visit-homegoy
+
+Thinking & Feelings-Gefoelenn & Gefoel
+think-gefoelenn
+know-nonkenn
+understand-nonkenn
+forget-neben
+remember-benn
+believe-gefoelenn
+hope-gefoelenn
+feel-gefoellenn
+love-heilen
+hate-neilen
+cry-neetenn
+like-mag
+want-woll
+wish-gefoelenn
+
+Doing/Making-Makenn
+create-naubaun
+repair-naubaun
+wash-watennn
+clean-watennn
+carry/wear-traje
+give-gebe
+take-naemenn
+hold-halten
+
+Important Adjectives-Importe Sein
+Size & Shape-Groekke & Form
+big/large-goekk
+small/little-kleen
+long-lang
+short-nelang
+wide/broad-lang
+narrow-nelang
+thick/fat-lang
+thin-nelang
+round-lang
+angular/square-eckenikk
+deep-tuff
+high-neff
+
+Quality-Gutentut
+good-gut
+bad-negut
+perfect-gut
+broken-negut
+clean-clean
+dirty-neclean
+strong-takk
+weak-netakk
+fast-niao
+slow-puff
+light/easy-leit
+heavy/difficult-neitt
+
+Age & Time-Altten & Tim
+new-neu
+old-ald
+young-neu
+modern-neu
+late-ald
+
+Colors-Collen
+red-rot
+blue-blau
+green-grinn
+yellow-yellow
+black-black
+white-weit
+grey-grei
+brown-brei
+pink-lila
+purple-lila
+
+Conjunctions-Connwotta
+and-u
+or-o
+but-a
+because-wei
+for/because-den
+although-ob
+if/when-wen
+then-dan
+so/thus-all
+therefore-deh
+nevertheless-trotten
+before-befor
+after-nefor
+during/while-nau
+that-datt
+
+Quantifiers-Vielwotta
+everything-ale
+nothing-nele
+something-ewwa
+much/a lot-viel
+little/few-neviel
+more-mer
+less-nemer
+enough-enott
+too much-tuviel
+complete/completely-full
+half-nefull
+
+Numbers-Nomen
+zero-noll
+one-e
+two-teee
+three-dree
+four-feee
+five-fu
+six-nekk
+seven-nakk
+eight-akk
+nine-noin
+ten-fue
+twenty-teeefue
+thirty-dreefue
+forty-feeefue
+fifty-fufue
+sixty-nekkfue
+seventy-nakkfue
+eighty-akkfue
+ninety-noinfue
+hundred-full
+thousand-fullte
+million-fulltenn
+
+Common Sentence Words-Importe Fullwotta
+also-tambie
+only-nonly
+already-cloon
+still/yet-nokk
+again-widda
+almost-nend
+approximately-nend
+
+Typical Conversational Sentences-Importe Fullwotta
+how are you-waekk
+I am doing well-joekk
+what are you doing-kadumm
+where are you from-wogoydu
+what is your name-wienamedu
+I don't understand-ideno
+can you repeat that-ideno
+what does that mean-ideno
+I agree-jo
+I think so-jo
+no idea-ideno
+that is interesting-joheten
+good luck-gottlang
+good night-gottlang
+see you later-gottgoy
+
+Very Important Additional Verbs-Importe Machen
+be-sei
+have-hatt
+become-woerd
+can/be able to-konnen
+must/have to-hetu
+be allowed to-konnen
+should/shall-hetu
+stay/remain-halten
+begin/start-nende
+end-enden
+happen-happen
+change-andachen
+try-proben
+accomplish/make-didn
+
+---Grammar & Rules---
+
+Sentence Structure-Rulenlong
+
+Declarative sentence: [Sentence] + [Time-word]
+Interrogative sentence: Activity, who/what (how) (where)?
+Negation: "Nie" + who/what + Activity (how) (where)
+
+Article Rules-Rulen
+lö = 1 (definite/indefinite article, singular)
+de = 2 (article for plural / multiple things)
+Articles always stand before nouns and people.
+For multiple things, the form of no word changes – only the number is placed in front of the word (or the word for "multiple": de).
+
+Tense Rules-Rulen
+Tense is expressed by a time-word at the beginning of the sentence:
+baff = in the past
+nau = now/currently
+dann = later/afterwards
+
+Punctuation Rules-Rulen
+. = always (only) at the end of the sentence
+, = only for lists
+? = replaces the period at the end of a question mark (so it only stands at the end, not at the beginning)
+
+Spelling Rules-Rulen
+Everything is written in lowercase, except the first letter at the beginning of the sentence.
+
+Personal Pronoun Rules-Rulen
+ick = I
+tu = you
+lö = he / he (Article Singular)
+de = she (singular) / de (Article)
+woek = we
+ir = you (plural)
+dey = they
+(Forms never change – always the same)
