@@ -666,6 +666,7 @@ passieren-happen
 ändern-andachen
 versuchen-proben
 schaffen-didn
+einladen-einlatten
 
 ---Grammatik & Regeln---
 
