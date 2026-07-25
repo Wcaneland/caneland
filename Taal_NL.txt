@@ -667,7 +667,7 @@ gebeuren-happen
 veranderen-andachen
 proberen-proben
 lukken-didn
-
+uitnodiging-einlatten
 ---Grammatica & Regels---
 
 Zinsbouw-Rulenlong
