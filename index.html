@@ -223,7 +223,8 @@ const T = {
     f_country: "Country of residence", f_why: "Why do you want to become a citizen?",
     f_why_hint: "A sentence or two is enough.",
     f_submit: "Submit application",
-    footer_text: "Capital: Gotersburg · Founded: 26th January · Language: Canelandic"
+    footer_text: "Capital: Gotersburg · Founded: 26th January · Language: Canelandic",
+    alert_empty: "Please fill in all fields."
   },
   de: {
     nav_about: "Über uns", nav_constitution: "Verfassung", nav_language: "Sprache", nav_citizenship: "Staatsbürgerschaft",
@@ -248,7 +249,8 @@ const T = {
     f_country: "Wohnsitzland", f_why: "Warum möchtest du Staatsbürger werden?",
     f_why_hint: "Ein bis zwei Sätze reichen.",
     f_submit: "Bewerbung absenden",
-    footer_text: "Hauptstadt: Gotersburg · Gegründet: 26. Januar · Sprache: Canelandisch"
+    footer_text: "Hauptstadt: Gotersburg · Gegründet: 26. Januar · Sprache: Canelandisch",
+    alert_empty: "Bitte fülle alle Felder aus."
   },
   nl: {
     nav_about: "Over ons", nav_constitution: "Grondwet", nav_language: "Taal", nav_citizenship: "Burgerschap",
@@ -273,7 +275,8 @@ const T = {
     f_country: "Land van verblijf", f_why: "Waarom wil je burger worden?",
     f_why_hint: "Één of twee zinnen zijn voldoende.",
     f_submit: "Aanvraag indienen",
-    footer_text: "Hoofdstad: Gotersburg · Opgericht: 26 januari · Taal: Canelands"
+    footer_text: "Hoofdstad: Gotersburg · Opgericht: 26 januari · Taal: Canelands",
+    alert_empty: "Vul alle velden in."
   }
 };
 
@@ -312,6 +315,26 @@ function setLang(l) {
       a.download = filename;
     }
   });
+}
+
+function submitApp() {
+  var name = document.getElementById('f-name').value.trim();
+  var country = document.getElementById('f-country').value.trim();
+  var why = document.getElementById('f-why').value.trim();
+
+  if (!name || !country || !why) {
+    alert(T[lang].alert_empty);
+    return;
+  }
+
+  var subject = 'Citizenship application';
+  var body = 'Name (Canelandic): ' + name + '\n' +
+             'Country of residence: ' + country + '\n' +
+             'Reason: ' + why;
+
+  window.location.href = 'mailto:caneland26.1@gmail.com?subject=' +
+                         encodeURIComponent(subject) +
+                         '&body=' + encodeURIComponent(body);
 }
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -397,7 +420,7 @@ window.addEventListener('DOMContentLoaded', function() {
     <div><strong data-t="hol1_name">Founding Day</strong> – <span data-t="hol1_text">The national holiday of Caneland. Official elections are held on this date each year.</span></div>
   </div>
   <div class="holiday-row" style="margin-top:1rem">
-    <div class="holiday-date"><div class="day">26</div><div class="month" data-t="stat_election" style="font-size:0.6rem">Every month</div></div>
+    <div class="holiday-date"><div class="day">26</div><div class="month" style="font-size:0.6rem">Every month</div></div>
     <div><strong data-t="hol2_name">Day of Remembrance</strong> – <span data-t="hol2_text">A monthly commemoration of the founding.</span></div>
   </div>
 
@@ -429,6 +452,5 @@ window.addEventListener('DOMContentLoaded', function() {
   <p>© Caneland &nbsp;·&nbsp; <span data-t="footer_text">Capital: Gotersburg · Founded: 26th January · Language: Canelandic</span></p>
 </footer>
 
-</script>
 </body>
 </html>
