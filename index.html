@@ -428,21 +428,7 @@ window.addEventListener('DOMContentLoaded', function() {
 <footer>
   <p>© Caneland &nbsp;·&nbsp; <span data-t="footer_text">Capital: Gotersburg · Founded: 26th January · Language: Canelandic</span></p>
 </footer>
- 
-</script>
-function submitApp() {
-  const name = document.getElementById('f-name').value.trim();
-  const country = document.getElementById('f-country').value.trim();
-  const why = document.getElementById('f-why').value.trim();
-  if (!name || !country || !why) { alert('Please fill in all fields.'); return; }
-  const subject = encodeURIComponent('Caneland Citizenship Application – ' + name);
-  const body = encodeURIComponent(
-    'Canelandic name: ' + name + '\n' +
-    'Country: ' + country + '\n\n' +
-    'Why I want to become a citizen:\n' + why
-  );
-  window.location.href = 'mailto:caneland26.1@gmail.com?subject=' + subject + '&body=' + body;
-}
+
 </script>
 </body>
 </html>
