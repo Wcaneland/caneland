@@ -173,7 +173,7 @@ back-rair
 stomach/belly-fronnerair
 skin-hatt
 blood-blutt
-bone-kolken
+bone-knocken
 
 Feelings-fillen
 love-heilen
