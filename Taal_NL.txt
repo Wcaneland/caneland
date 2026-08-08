@@ -167,7 +167,7 @@ rug-rair
 buik-fronnerair
 huid-hatt
 bloed-blutt
-botten-kolken
+botten-knocken
 Gevoelens-fillen
 liefde-heilen
 haat-nehlenn
