@@ -167,7 +167,7 @@ rücken-rair
 bauch-fronnerair
 haut-hatt
 blut-blutt
-knochen-kolken
+knochen-knocken
 Gefühle-fillen
 liebe-heilen
 hass-nehlenn
