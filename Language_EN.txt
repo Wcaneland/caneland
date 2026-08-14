@@ -111,6 +111,7 @@ shop/store-laden
 market-mackt
 train station-trennhaufen
 airport-fluggaffen
+castle-boorg
 hospital-krankenhuis
 restaurant-kolkhome
 hotel-hotall
