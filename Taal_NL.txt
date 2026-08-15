@@ -107,7 +107,7 @@ winkel-laden
 markt-mackt
 station-trennhaufen
 luchthaven-fluggaffen
-burcht-boorg
+burcht-kastill
 ziekenhuis-krankenhuis
 restaurant-kolkhome
 hotel-hotall
